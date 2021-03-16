@@ -34,15 +34,12 @@ function generateMeme(img, topText, bottomText, topTextSize, bottomTextSize) {
 }
 
 window.addEventListener('DOMContentLoaded', (event) => {
-
     const topTextInput = document.getElementById('top-text');
     const bottomTextInput = document.getElementById('bottom-text');
     const topTextSizeInput = document.getElementById('top-text-size-input');
     const bottomTextSizeInput = document.getElementById('bottom-text-size-input');
     const imageInput = document.getElementById('image-input');
     const generateBtn = document.getElementById('generate-btn');
-
-
 
     generateBtn.addEventListener('click', () => {
         // Read image as DataURL using the FileReader API
